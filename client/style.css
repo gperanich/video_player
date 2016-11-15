@@ -1,0 +1,20 @@
+#video-pane {
+    width: 70%;
+    float: right;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+.video-divs {
+    height: 10%;
+    width: 100%;
+    float: left;
+    margin: 20px;
+    border: solid 2px;
+}
+.video-thumbnail {
+    height: 100px;
+}
+.videos {
+    width: 30%;
+    float: left;
+}

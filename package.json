@@ -1,0 +1,25 @@
+{
+  "name": "video_player",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "nodemon -e js --exec \"source .variables && node server/index.js\"",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gperanich/video_player.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gperanich/video_player/issues"
+  },
+  "homepage": "https://github.com/gperanich/video_player#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mysql": "^2.12.0"
+  }
+}
