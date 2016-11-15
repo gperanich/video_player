@@ -10,6 +10,10 @@ angular.module('VideoPlayerApp', ['ngResource', 'ngRoute','VideoPlayer.controlle
             templateUrl: 'views/viewer.html',
             controller: 'ViewerController'
         })
+        .when('/viewer/:id', {
+            templateUrl: 'views/update.html',
+            controller: 'UpdateController'
+        })
         .otherwise({
             redirectTo: '/'
         })

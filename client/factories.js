@@ -3,5 +3,7 @@ angular.module('VideoPlayer.factories', [])
     return $resource('/api/input/:id', { id:'@id' });
 }])
 .factory('Viewer', ['$resource', function($resource) {
-    return $resource('/api/viewer/:id', { id:'@id' });
+    return $resource('/api/viewer/:id', { id:'@id' }, {
+        update: { method:'PUT' }
+    });
 }])
